@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "70284662916",
+    "project_id": "andaru-elearning",
+    "storage_bucket": "andaru-elearning.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:70284662916:android:16e422f09bb059d3364ad1",
+        "android_client_info": {
+          "package_name": "com.example.ubtsimulation"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNQCT8ra7NuCR4urOgtg4zULG9mkWrwWI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
