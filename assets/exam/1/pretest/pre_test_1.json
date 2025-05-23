@@ -1,0 +1,27 @@
+{
+  "soal": [
+    {
+      "id_soal": "1_1",
+      "nomor": 1,
+      "paket": 1,
+      "tipe": "reading",
+      "kategori": "[1 – 2] 다음 그림을 보고 맞는 단어나 문장을 고르십시오.",
+      "pembuka": "다음을 보고 질문에 맞는 것을 고르십시오.",
+      "gambar": "assets/exam/1/pretest/tokobunga.jpg",
+      "pilihan": [
+        "① 우체국입니다.",
+        "② 경찰서입니다.",
+        "③ 미용실입니다.",
+        "④ 꽃가게입니다."
+      ],
+      "jawaban_benar": 3,
+      "penjelasan_benar": "꽃가게는 toko bunga. Gambar menunjukkan tempat jual bunga.",
+      "jawaban_salah": {
+        "0": "우체국 adalah kantor pos.",
+        "1": "경찰서 adalah kantor polisi.",
+        "2": "미용실 adalah salon rambut."
+      },
+      "tips_cepat": "Lihat isi gambar: bunga, pot, tanaman. Fokus konteks visual."
+    }
+  ]
+}

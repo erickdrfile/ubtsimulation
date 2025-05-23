@@ -1,9 +1,12 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:go_router/go_router.dart';
-import 'package:ubtsimulation/features/ubt_simulation/ubt_simulation_page.dart';
+import "package:ubtsimulation/features/ubt_simulation/ubt_simulation_page.dart";
+import "package:ubtsimulation/features/ubt_simulation/pre_test_page.dart";
 import 'package:ubtsimulation/pages/auth/home_screen.dart';
 import 'package:ubtsimulation/pages/auth/login_screen.dart';
 import 'package:ubtsimulation/pages/onboarding/onboarding_screen.dart';
+import 'package:ubtsimulation/features/post_test_page.dart';
+import 'package:ubtsimulation/features/eps_topik_page.dart';
 
 final GoRouter appRouter = GoRouter(
   initialLocation: '/onboarding',
@@ -33,6 +36,24 @@ final GoRouter appRouter = GoRouter(
     GoRoute(
       path: '/ubt-simulation',
       builder: (context, state) => UbtSimulationPage(),
+    ),
+    GoRoute(
+      path: '/pre-test/:examId',
+      builder: (context, state) {
+        final examId = state.pathParameters['examId']!;
+        return PreTestPage(examId: examId);
+      },
+    ),
+    GoRoute(
+      path: '/post-test/:examId',
+      builder: (context, state) {
+        final examId = state.pathParameters['examId']!;
+        return PostTestPage(examId: examId);
+      },
+    ),
+    GoRoute(
+      path: '/eps-topik',
+      builder: (context, state) => const EpsTopikPage(),
     ),
   ],
 );

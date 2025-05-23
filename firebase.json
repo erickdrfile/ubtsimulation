@@ -1,1 +1,39 @@
-{"flutter":{"platforms":{"android":{"default":{"projectId":"andaru-elearning","appId":"1:70284662916:android:16e422f09bb059d3364ad1","fileOutput":"android/app/google-services.json"}},"dart":{"lib/firebase_options.dart":{"projectId":"andaru-elearning","configurations":{"android":"1:70284662916:android:16e422f09bb059d3364ad1","ios":"1:70284662916:ios:62a7e46f591daf1e364ad1","macos":"1:70284662916:ios:62a7e46f591daf1e364ad1","web":"1:70284662916:web:39685613fe8d61b4364ad1","windows":"1:70284662916:web:fafc6f15b0c9fae6364ad1"}}}}}}
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "andaru-elearning",
+          "appId": "1:70284662916:android:16e422f09bb059d3364ad1",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "andaru-elearning",
+          "configurations": {
+            "android": "1:70284662916:android:16e422f09bb059d3364ad1",
+            "ios": "1:70284662916:ios:62a7e46f591daf1e364ad1",
+            "macos": "1:70284662916:ios:62a7e46f591daf1e364ad1",
+            "web": "1:70284662916:web:39685613fe8d61b4364ad1",
+            "windows": "1:70284662916:web:fafc6f15b0c9fae6364ad1"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
